@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditViewImageViewActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="@string/sign_up"
+        android:textColor="#424242"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        android:layout_height="200dp"
+        android:src="@drawable/sign_up"
+
+        />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/your_email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:padding="15dp"
+        android:textColorHint="#66DB4242" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="numberPassword"
+        android:minHeight="48dp"
+        android:padding="15dp"
+        android:textColorHint="#8BDD6565" />
+
+
+</LinearLayout>
