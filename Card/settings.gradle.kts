@@ -19,7 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Linear Layout"
-include(":app")
+rootProject.name = "Card"
 include(":app")
  
